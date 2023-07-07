@@ -24,13 +24,13 @@ jobs:
         python -m pip install --upgrade pip
     - name: Install test requirements dependencies 
       run: |    
-        pip install -r Project/requirements/test_requirements.txt
+        pip install -r requirements/test_requirements.txt
     - name: Format code with Black    
       run: |
         black Project/*.py
     - name: train pipeline
       run: |
-        python Project/bikeshare_model/train_pipeline.py
+        python bikeshare_model/train_pipeline.py
     - name: test with pytest
       run: |
         pytest
