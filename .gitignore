@@ -122,6 +122,9 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.pyc
+.whl
+.pkl
 env/
 venv/
 ENV/
