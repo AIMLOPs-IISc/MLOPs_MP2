@@ -1,4 +1,4 @@
--r requirements_test.txt
+-r requirements.txt
 
 # testing requirements
 pytest==7.4.0
